@@ -41,116 +41,10 @@ a:focus {
 }
 
 #home {
-	background-color: #224580;
-	color: #e4e4e4;
+	background-color: #FFF;
+	color: #555;
 	padding-top: 100px;
 }
-
-/* centered columns styles */
-.row-centered {
-    text-align:center;
-}
-.col-centered {
-    display:inline-block;
-    float:none;
-    /* reset the text-align */
-    text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
-}
-.col-fixed {
-    /* custom width */
-    width:320px;
-}
-.col-min {
-    /* custom min width */
-    min-width:320px;
-}
-.col-max {
-    /* custom max width */
-    max-width:320px;
-}
-
-/* heading styles */
-h1, h2, h3, h4, h5, h6, p {
-}
-
-h1 {
-	font-family: "Goudy Old Style","Big Caslon",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
-	font-size: 6rem;
-	line-height: 1.1;
-}
-
-h2 {
-	font-family: "Goudy Old Style","Big Caslon",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
-	font-size: 3rem;
-}
-
-h3 {
-	text-align: center;
-}
-
-h4 {
-	text-align: center;
-}
-
-.top3 {
-	margin-top: -35px;
-}
-
-h4:last-child {
-	padding-bottom: 10px;
-}
-
-#box1:hover {
-	background-color: #e79e19;
-	color: #224580;
-}
-
-#box2:hover {
-	background-color: #e79e19;
-	color: #224580;
-}
-
-#box3:hover {
-	background-color: #e79e19;
-	color: #224580;
-}
-
-#box1:hover h3 {
-	color: #224580;
-	font-weight: 800;
-}
-
-#box2:hover h3 {
-	color: #224580;
-	font-weight: 800;
-}
-
-#box3:hover h3 {
-	color: #224580;
-	font-weight: 800;
-}
-
-#box1:hover h4 {
-	color: #224580;
-	font-weight: 800;
-}
-
-#box2:hover h4 {
-	color: #224580;
-	font-weight: 800;
-}
-
-#box3:hover h4 {
-	color: #224580;
-	font-weight: 800;
-}
-
-:hover {
-	transition: .4s ease-in-out;
-}
-
 
 /* animation styles */
 line {
@@ -161,22 +55,22 @@ line {
 }
 
 #name {
-  color: #e4e4e4;
+  color: #555;
   animation: name 1s 1 ease-out;
 }
 
 #reveal1 {
-  color: #e4e4e4;
+  color: #555;
   animation: reveal1 1s 1 ease-out;
 }
 
 #reveal2 {
-  color: #e4e4e4;
+  color: #555;
   animation: reveal2 1.6s 1 ease-out;
 }
 
 .reveal3 {
-  color: #e4e4e4;
+  color: #555;
   animation: reveal3 1.8s 1 ease-out;
 }
 
@@ -219,7 +113,7 @@ line {
         color: #e79e19;
     }
     33% {
-    	color: #e4e4e4;
+    	color: #555;
     }
 }
 @keyframes reveal1 {
@@ -230,7 +124,7 @@ line {
         color: #e79e19;
     }
     51% {
-    	color: #e4e4e4;
+    	color: #555;
     }
 }
 @keyframes reveal2 {
@@ -241,7 +135,7 @@ line {
         color: #e79e19;
     }
     66% {
-    	color: #e4e4e4;
+    	color: #555;
     }
 }
 @keyframes reveal3 {
@@ -252,7 +146,7 @@ line {
         color: #e79e19;
     }
     100% {
-    	color: #e4e4e4;
+    	color: #555;
     }
 }
 /*  line keyframes */
